@@ -4,8 +4,8 @@
 $servername = 'inventory-db mysql database instance 35.226.165.67';
 $username = 'username root';
 $password = 'password lab-password';
-$database = 'inventory';
-$table = 'products';
+$database = 'database name inventory';
+$table = 'inventory database table name products';
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
